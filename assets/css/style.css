@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+:root {
+  --color-blanco: #ffffff;
+  --color-gris: #83847f;
+  --color-base: #CF0A0A;
+  --color-negro: #000000;
+  --color-brand: #CF0A0A;
+  --color-brand2: #ffffff;  
+  --sidebar-width: 240px;
+  --font-base: "Bai Jamjuree";
+}
+
+body {
+  background-color: var(--color-body);
+  color: var(--color-body);
+  font-family: var(--font-base), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: var(--color-negro);
+  transition: all 0.4s ease;
+  
+}
+
+a:hover {
+  color: var(--color-brand2);
+}
+
+img {
+  width: 100%;
+}
+
+
+.shadow-effect{
+  transition:  all 0.5s;
+
+}
+.shadow-effect:hover{
+  box-shadow: 0 0 0 2px var(--color-body);
+  
+}
+
+.navbar {
+  background-color: black;
+  margin-bottom: 1rem;
+}
+.navbar-collapse{
+  background-color: white;
+  justify-content: space-between;
+}
+.navbar .nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-negro);
+}
+
+.navbar .nav-link:hover {
+  color: var(--color-base);
+}
+.collapse{
+
+  background-color: #000000;
+}
+.navbar-collapse ul{
+  background-color: #ffffff;
+}
+
+.navbar .nav-link.active{
+  color: var(--color-negro);
+}
+
+.logo{
+  width: 6rem;
+}
+/* ----------------- */
+
+
+
+
+
+
+
+
+
+/* CONTACTO / CONTACT */
+
+#contact .form-control:focus {
+  background-color: var(--color-base2);
+  color: white;
+  transition: 0.5s ease;
+}
+#contact .form-control::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+#contact input.form-control {
+  height: 44px;
+}
+
+/*   IMG SECCION   */
+
+.section-custom-image{
+  padding: 0;
+  border: solid 2px blue;
+  height: 30vh;
+  display: flex;
+}
+.section-custom-image img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-base);
+    border-radius: 100px;
+    font-size: 24px;
+}
