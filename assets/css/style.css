@@ -64,13 +64,18 @@ img {
 /* ----------------- */
 /* HERO */
 .hero {
-  height: 3rem;
   border: solid 1px salmon;
   height: 40vh;
   display: flex;
+  
 }
 .hero h1 {
-  font-size: 4rem;
+  /* border: solid 1px red; */
+  margin-left: 7rem;
+  width: 100%;
+  font-size: 7rem;
+  margin-top: 8%;
+  text-shadow: 15px 15px 10px black ;
 }
 .hero img {
   width: 100%;
