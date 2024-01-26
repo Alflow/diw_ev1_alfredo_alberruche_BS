@@ -17,7 +17,7 @@
                     <img src="assets/media/LOGO/LOGO OSCURO.png" class="logo float-start" alt="...">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon navbar-toggler-icon2"></span>
+                <span class="navbar-toggler-icon navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav d-flex ">
@@ -38,13 +38,51 @@
                     <a class="nav-link" href="#">Restaurantes</a>
                   </li>
                 </ul>
+                <div class="col-md-3 text-end">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    LOGIN
+                  </button>
+                  
+                </div>
               </div>
             </div>
         </nav>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">No compartiremos tus datos con nadie</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+          </div>
+          <a class="nav-link active text-end" aria-current="page" href="#">¿No registrado? Regístrate aquí.</a>
+          <button type="submit" class="btn btn-primary">Acceder</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 <main class="p-4">
-  <div class="hero m-1 d-flex position-relative">
-    <h1 class="position-absolute text-light">OASIS TRIPS</h1>
-    <img class="hero-img" src="assets/media/hero.jpg" alt="">
+  <div class="hero m-1 d-flex">
+    <h1 class="text-light z-2 position-absolute">OASIS TRIPS</h1>
+    <img class="hero-img z-1" src="assets/media/hero.jpg" alt="">
     
   </div>
   <p class="text-start fs-1 p-2">Nuestras villas</p>
@@ -52,8 +90,8 @@
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <div class="cards-wrapper">
-          <div class="card">
+        <div class="card-group">
+          <div class="card sm-100w">
             <img src="https://images.pexels.com/photos/5992583/pexels-photo-5992583.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title 1</h5>
@@ -80,7 +118,7 @@
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <div class="cards-wrapper">
+        <div class="card-group"> <!--cards-wrapper originalmente funcionaba -->
           <div class="card">
             <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
             <div class="card-body">
@@ -106,7 +144,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <div class="cards-wrapper">
+        <div class="card-group">
           <div class="card">
             <img src="https://images.pexels.com/photos/2166608/pexels-photo-2166608.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
             <div class="card-body">

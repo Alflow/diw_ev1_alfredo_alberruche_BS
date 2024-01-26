@@ -76,12 +76,14 @@ img {
   /* border: solid 1px salmon; */
   height: 40vh;
   display: flex;
+  min-width: 300px;
+  overflow: hidden;
 }
 .hero h1 {
   /* border: solid 1px red; */
   margin-left: 7rem;
-  width: 100%;
-  font-size: 7rem;
+  width: 80%;
+  font-size: calc(40vh / 8);
   margin-top: 8%;
   text-shadow: 15px 15px 10px black;
 }
@@ -101,7 +103,7 @@ img {
 
 .card {
   margin: 0 0.5em;
-  width: calc(100% / 3);
+  /* width: calc(100% / 3); */
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
   border-radius: 1;
@@ -120,6 +122,6 @@ img {
 }
 
 /* ____________________________ */
-.navbar-toggler-icon2 {
+.navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
