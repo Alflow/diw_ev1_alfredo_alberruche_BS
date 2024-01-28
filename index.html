@@ -24,7 +24,7 @@
         <span class="navbar-toggler-icon navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav d-flex ">
+        <ul class="navbar-nav d-flex justify-content-between col-md-8 ms-3">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Hoteles</a>
           </li>
@@ -42,7 +42,7 @@
             <a class="nav-link" href="#">Restaurantes</a>
           </li>
         </ul>
-        <div class="col-md-3 text-end">
+        <div class="col-md-4 text-end">
           <button type="button" class="btn btn-primary mx-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
             LOGIN
           </button>
@@ -86,8 +86,8 @@
     </div>
 
 
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <p class="text-start fs-2">Destinos más populares</p>
+    <div id="carouselExampleInterval" class="carousel slide mt-4" data-bs-ride="carousel">
+      <h2 class="text-start fs-2 ms-4">Destinos más populares</h2>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
           <div class="card-group">
@@ -271,7 +271,10 @@
               <p class="fs-5">Influencer</p>
               <p class="text-muted fs-5">
                 <i class="fas fa-quote-left pe-2"></i>
-                Mi viaje con OASISTRIPS a Bali fue una experiencia encantadora. Las vistas y las actividades fueron casi perfectas. Hubo algunos pequeños inconvenientes con los traslados, pero en general, una aventura memorable. Recomendaría este viaje a amigos que buscan descubrir Bali. No bebáis agua del grifo o abrazaréis a un váter la mitad del viaje!
+                Mi viaje con OASISTRIPS a Bali fue una experiencia encantadora. Las vistas y las actividades fueron casi
+                perfectas. Hubo algunos pequeños inconvenientes con los traslados, pero en general, una aventura
+                memorable. Recomendaría este viaje a amigos que buscan descubrir Bali. No bebáis agua del grifo o
+                abrazaréis a un váter la mitad del viaje!
               </p>
             </div>
           </div>
@@ -296,25 +299,197 @@
       </button>
     </div>
     <section>
-      <div class="container bcontent">
-        <h2>Bootstrap Horizontal Card</h2>
-        <hr />
-        <div class="card">
-            <div class="row no-gutters">
-                <div class="col-sm-4">
-                    <img class="card-img" src="assets/media/selva.jpg" alt="Suresh Dasari Card">
-                </div>
-                <div class="col-sm-6">
-                    <div class="card-body">
-                        <h5 class="card-title">PLAYA CUALQUIERA</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta saepe quam aliquid ipsam, cum voluptatibus maxime consequatur nisi velit, ducimus expedita amet commodi, eos assumenda? Assumenda asperiores blanditiis quis placeat.</p>
-                        <a href="#" class="btn btn-primary">View Profile</a>
-                    </div>
-                </div>
+      <div class="container-fluid bcontent w-100">
+        <h2 class="ms-2">Explora Bali</h2>
+        <hr class="ms-2" />
+        <div class="card w-100 mb-3">
+          <div class="row no-gutters">
+            <div class="col-sm-4">
+              <img class="card-img img-fluid" style="max-height: 300px;" src="assets/media/selva.jpg"
+                alt="Suresh Dasari Card" style="object-fit: cover; height: 100%;">
             </div>
+            <div class="col-sm-8 d-flex flex-column align-items-center">
+              <div class="card-body d-flex flex-column justify-content-center align-items-start">
+                <h5 class="card-title">Ubud Monkey Forest</h5>
+                <p class="card-text"> Explora el Ubud Monkey Forest, un encantador santuario en Bali donde conviven la
+                  naturaleza y los monos de cola larga. Sumérgete en este mágico bosque de templos antiguos y descubre
+                  una experiencia única de interacción con la vida salvaje, todo ello enmarcado en la rica
+                  espiritualidad y tradición balinesa.
+                </p>
+                <a href="#" class="btn btn-primary">Leer artículo</a>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+
+        <div class="card w-100 mb-3">
+          <div class="row no-gutters">
+            <div class="col-sm-4">
+              <img class="card-img img-fluid"
+                src="https://images.pexels.com/photos/4553367/pexels-photo-4553367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                style="max-height: 300px; object-fit: cover;" alt="Suresh Dasari Card">
+            </div>
+            <div class="col-sm-8 d-flex flex-column align-items-center">
+              <div class="card-body d-flex flex-column justify-content-center align-items-start">
+                <h5 class="card-title">Tanah Lot Temple</h5>
+                <p class="card-text">
+                  El Templo Tanah Lot, una de las maravillas arquitectónicas y espirituales de Bali, se alza majestuoso
+                  sobre una roca en el mar. Este emblemático templo, famoso por sus impresionantes puestas de sol y su
+                  significado cultural, es un lugar de peregrinaje y veneración. Aquí, la historia se encuentra con la
+                  mitología en un escenario donde las olas chocan contra antiguos muros. Un destino imperdible para
+                  aquellos que buscan comprender la rica herencia cultural de Bali y disfrutar de vistas espectaculares
+                  que capturan la esencia de la isla.
+                </p>
+                <a href="#" class="btn btn-primary">Leer artículo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-100 mb-3">
+          <div class="row no-gutters">
+            <div class="col-sm-4">
+              <img class="card-img img-fluid" style="max-height: 300px;"
+                src="https://images.pexels.com/photos/2707756/pexels-photo-2707756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Suresh Dasari Card" style="object-fit: cover; height: 100%;">
+            </div>
+            <div class="col-sm-8 d-flex flex-column align-items-center">
+              <div class="card-body d-flex flex-column justify-content-center align-items-start">
+                <h5 class="card-title">SeminYak Beach</h5>
+                <p class="card-text">
+                  Descubre Seminyak Beach, un destino cautivador en Bali que combina elegancia y aventura. Con su arena
+                  dorada y vibrante vida nocturna, este lugar promete una experiencia inolvidable de relajación y
+                  diversión. Explora su rica cultura y sumérgete en un paraíso donde cada puesta de sol es un
+                  espectáculo.
+                </p>
+                <a href="#" class="btn btn-primary">Leer artículo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </section>
+
+    <section>
+      <div class="container-fluid bcontent w-100">
+        <h2 class="ms-2">#VIAJANDOCONOASIS</h2>
+        <hr class="ms-2" />
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <h2 class="text-start fs-2 ms-4">Comparte tus recuerdos con nuestra comunidad</h2>
+          <div class="carousel-inner">
+            <!-- Intervalos de 5 segundos para cada grupo de 3 -->
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="card-group">
+                <div class="card sm-100w">
+                  <img
+                    src="https://images.pexels.com/photos/19294995/pexels-photo-19294995/free-photo-of-montanas-hombre-agua-niebla.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@javiMrf</h5>
+                    <p class="card-text">Me haré una foto mirando a la nada, pensando en el todo.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/19271564/pexels-photo-19271564/free-photo-of-ciudad-calle-viaje-urbano.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@Martina232</h5>
+                    <p class="card-text">Me he perdido. No sé cómo volver a mi villa. Pero mirad qué vistas!</p>
+
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/3876401/pexels-photo-3876401.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@javitoLUU</h5>
+                    <p class="card-text">Última instantánea antes de que una gaviota atacase mi dron. RIP
+                      #tristePeroAlegre</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="card-group">
+                <div class="card sm-100w">
+                  <img
+                    src="https://images.pexels.com/photos/2233391/pexels-photo-2233391.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@ojoDeHalcon12</h5>
+                    <p class="card-text">Dan ganas de beber. Pero no es recomendable. Un paraje precioso pero hidrátate
+                      con cabeza!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/18258533/pexels-photo-18258533/free-photo-of-comida-madera-fotografo-mesa.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@unViajero67</h5>
+                    <p class="card-text">¿Leche? ¿Yogur? Adivinen!! #Postureo</p>
+
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/194930/pexels-photo-194930.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@Lissy34</h5>
+                    <p class="card-text">Totalmente maravillada con las calles de Bali y su gente :D</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="card-group">
+                <div class="card sm-100w">
+                  <img
+                    src="https://images.pexels.com/photos/3018992/pexels-photo-3018992.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@voyager22_1</h5>
+                    <p class="card-text">Incríble. Maravilloso. Gozad con la foto que he sacado del templo!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/1373009/pexels-photo-1373009.png?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@AlfredoAlfreduche</h5>
+                    <p class="card-text">Toda la tarde pescando con los hijos de mi guía turístico. Una auténtica pasada
+                      de sitio y de gente. #pescando </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/9417116/pexels-photo-9417116.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="fotografía de uno de nuestros usuarios">
+                  <div class="card-body">
+                    <h5 class="card-title">@fuiestera32</h5>
+                    <p class="card-text">Menudo fiestón nos hemos pegado con el gavioto! Resulta que era compañero
+                      nuestro de bachillerato!</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
   </main>
 
 
