@@ -82,69 +82,156 @@
             </div>
         </div>
     </header>
-    <main class="p-2 ms-4 w-100">
+    <main class="p-3 w-100">
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Detalles de Villa</li>
+              <li class="breadcrumb-item active" aria-current="page">Explorar</li>
             </ol>
         </nav>
-        
-        <div class="col-md-12 d-flex flex-column">
-            <h1 class="ms-3">Explora las villas más famosas de Bali</h1>
+        <h1 class="ms-3">Explora las villas más famosas de Bali</h1>
+        <div class="col-lg-12 d-flex flex-column">
             
-            
-            <div class="row col-md-12 col-sm-12"> <!-- Contenedor de la fila -->
-                <div class="col-md-5"> <!-- Columna para el carrusel en pantallas medianas y mayores -->
-                    <div id="carouselExampleIndicators" class="carousel slide col-md-12 col-sm-11 mt-2">
+            <div class="row"> <!-- Contenedor de la fila -->
+                <div class="col-md-5 mb-sm-4 ms-sm-3"> <!-- Columna para el iframe, ahora ocupa 6 columnas en pantallas medianas y mayores -->
+                    <iframe class="card col-md-12 col-sm-11 mt-3 rounded h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63098.147990338686!2d115.13033339369748!3d-8.726236889756223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246a486d6fbd3%3A0x84839839faa3e26d!2sKuta%2C%20Badung%2C%20Bali%2C%20Indonesia!5e0!3m2!1ses!2ses!4v1706572852939!5m2!1ses!2ses" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="card col-md-6 col-sm-12 rounded"> <!-- Columna para el carrusel, ahora ocupa 6 columnas en pantallas medianas y mayores -->
+                    <div id="carouselExampleIndicators" class="carousel slide">
                         <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="fotografía de la villa">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                           </div>
-                          <div class="carousel-item">
-                            <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="fotografía de la villa">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="fotografía de la villa">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="fotografía de la villa">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="fotografía de la villa">
+                            </div>
                           </div>
-                          <div class="carousel-item">
-                            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="fotografía de la villa">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev ms-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next me-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
+                          <button class="carousel-control-prev ms-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next me-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
                     </div>
-                </div>
-                <!-- Columna para la lista en pantallas medianas y mayores -->
-                <div class="col-md-3 col-sm-11 mt-3 d-flex flex-column justify-content-around pb-3"> 
-                    
-                    <iframe class="col-md-12 col-sm-12 pt-sm-3 rounded" src="https://www.google.com/maps/embed?pb=!4v1706519946919!6m8!1m7!1s7GdychzYVz_FqCQnol2c8A!2m2!1d-8.686686821967808!2d115.1552217015126!3f0.669001342814397!4f-5.007521436108874!5f0.7820865974627469" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="col-md-3">
-                    <iframe class="col-md-12 col-sm-11 rounded mt-4 calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=UTC&title=DISPONIBILIDAD&src=ZXMuc3BhaW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043" style="border:solid 1px #777" width="200" height="300" frameborder="0" scrolling="no"></iframe>
-                    <!-- botonera -->
-                    <div class="col-md-12 col-sm-10 d-flex justify-content-between">
-                        <button type="button" class="btn btn-dark text-white col-md-5 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Añadir a Favoritos
-                        </button>
-                        <button type="button" class="btn btn-dark text-white col-md-4 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Reservar
-                        </button>
+                    <div class="col-12 d-flex mb-3">
+                        <h3 class="ms-3 col-6">Vila Nyaman</h3>
+                        <a class="col-6" href="vistaDetalle.html">
+                            <button type="button" class="btn btn-dark col-11" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Ver detalles
+                              </button>
+                            </a>
+                            
                     </div>
                     
                 </div>
                 
+        
+                
             </div>
         </div>
-
+        <hr class="ms-2 mb-4 col-11" />
+        <div class="card-group ms-2">
+            <div class="card position-relative">
+                <div class="ratings position-absolute ms-4 mt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                </div>
+            <img src="https://images.pexels.com/photos/13041125/pexels-photo-13041125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Vila Uruktu</h5>
+                <p class="card-text">78 € noche</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">La más solicitada</small>
+            </div>
+            </div>
+            <div class="card position-relative">
+                <div class="ratings position-absolute ms-4 mt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            <img src="https://images.pexels.com/photos/2604792/pexels-photo-2604792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Vila Kubu Jazmine</h5>
+                <p class="card-text">130 € noche</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">Mejor "todo incluído"</small>
+            </div>
+            </div>
+            <div class="card position-relative">
+                <div class="ratings position-absolute ms-4 mt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            <img src="https://images.pexels.com/photos/9739235/pexels-photo-9739235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bungalows Bali</h5>
+                <p class="card-text">80 € noche</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">Para amantes del buceo</small>
+            </div>
+            </div>
+            <div class="card position-relative">
+                <div class="ratings position-absolute ms-4 mt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="https://images.pexels.com/photos/19869241/pexels-photo-19869241/free-photo-of-ciudad-carretera-vacaciones-gente.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hostal Munyab</h5>
+                    <p class="card-text">50 € noche</p>
+                </div>
+                <div class="card-footer">
+                <small class="text-body-secondary">En pleno centro</small>
+                </div>
+            </div>
+            <div class="card position-relative">
+                <div class="ratings position-absolute ms-4 mt-2">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="https://images.pexels.com/photos/709767/pexels-photo-709767.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Apartamentos Muyshou</h5>
+                    <p class="card-text">125 € noche</p>
+                </div>
+                <div class="card-footer">
+                <small class="text-body-secondary">Minimalista pero equipado</small>
+                </div>
+            </div>
+        </div>
+           
+        
+        
+        
+        
         
         <footer>
             <!-- iconos de redes sociales -->

@@ -129,9 +129,33 @@ img {
 }
 
 
+/* CARD CUSTOMIZADA */
+.custom-card-img {
+  height: 150px; /* altura personalizada para las imágenes */
+  object-fit: cover; /* mantiene la proporción de la imagen */
+}
+
+.custom-card-body {
+  padding: 0.5rem; /* reducir el padding en el cuerpo de la tarjeta */
+}
+
+.small-text {
+  font-size: 0.8rem; /* texto más pequeño si es necesario */
+}
 
 
 /* VISTA DETALLADA */
 .calendar{
   border: none !important;
+}
+
+/* RATINGS */
+.ratings i{
+    
+  color:#cecece;
+  font-size:1.5rem;
+  text-shadow: 2px 2px 5px black;
+}
+.rating-color{
+  color:#fbc634 !important;
 }
