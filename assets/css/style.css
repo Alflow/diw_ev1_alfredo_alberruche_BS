@@ -45,7 +45,7 @@ img {
   margin-bottom: 1rem;
 }
 .navbar-collapse {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   justify-content: space-between;
 }
 .navbar .nav-link {
@@ -128,7 +128,6 @@ img {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-
 /* CARD CUSTOMIZADA */
 .custom-card-img {
   height: 150px; /* altura personalizada para las imágenes */
@@ -143,19 +142,17 @@ img {
   font-size: 0.8rem; /* texto más pequeño si es necesario */
 }
 
-
 /* VISTA DETALLADA */
-.calendar{
+.calendar {
   border: none !important;
 }
 
 /* RATINGS */
-.ratings i{
-    
-  color:#cecece;
-  font-size:1.5rem;
+.ratings i {
+  color: #cecece;
+  font-size: 1.5rem;
   text-shadow: 2px 2px 5px black;
 }
-.rating-color{
-  color:#fbc634 !important;
+.rating-color {
+  color: #fbc634 !important;
 }
