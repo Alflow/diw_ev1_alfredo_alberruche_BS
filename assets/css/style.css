@@ -94,6 +94,12 @@ img {
   height: auto;
   object-fit: cover;
 }
+.hero video {
+  width: 100%;
+  /* height: auto; */
+  
+  object-fit: cover;
+}
 .cards-wrapper {
   display: flex;
   justify-content: center;
