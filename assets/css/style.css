@@ -83,11 +83,13 @@ img {
 }
 .hero h1 {
   /* border: solid 1px red; */
+  display: inline;
   margin-left: 5.5rem;
   width: 80%;
   font-size: calc(40vh / 8);
   margin-top: 8%;
-  text-shadow: 15px 15px 10px black;
+  
+  /* text-shadow: 15px 15px 10px black; */
 }
 .hero img {
   width: 100%;
